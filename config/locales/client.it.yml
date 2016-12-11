@@ -1,0 +1,15 @@
+it:
+  js:
+    blocks:
+      modal_title: "Aggiungere un grafico"
+      gist-url: "Gist URL"
+      instructions-1: "Salvare un d3 grafico con"
+      instructions-2: "Forse anche fork"
+      this-one: "questo."
+      instructions-3: "Salvataggio creerà"
+      instructions-4: "sul vostro conto Github."
+      instructions-5: "Assicurarsi di popolare il Gist con un"
+      and: "e"
+      instructions-6: "Questo può essere fatto attraverso l'editor di Bl.ock Builder o Github."
+      instructions-7: "Incolla il link in basso Gist."
+      insert: "Inserire Blocco"

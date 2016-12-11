@@ -1,0 +1,15 @@
+en:
+  js:
+    blocks:
+      modal_title: "Add a graph"
+      gist-url: "Gist URL"
+      instructions-1: "Save a d3 graph with"
+      instructions-2: "Maybe even fork"
+      this-one: "this one."
+      instructions-3: "Saving will create a"
+      instructions-4: "on your Github account."
+      instructions-5: "Be sure to populate your Gist with a"
+      and: "and"
+      instructions-6: "This can be done through Bl.ock Builder's editor or Github."
+      instructions-7: "Paste the Gist link below."
+      insert: "Insert Block"

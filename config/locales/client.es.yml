@@ -1,0 +1,15 @@
+es:
+  js:
+    blocks:
+      modal_title: "Añadir un gráfico"
+      gist-url: "Gist URL"
+      instructions-1: "Guardar un gráfico d3 con"
+      instructions-2: "Tal vez incluso bifurcar"
+      this-one: "este."
+      instructions-3: "El ahorro creará una"
+      instructions-4: "en su cuenta de Github."
+      instructions-5: "Asegúrese de llenar su Gist con un"
+      and: "y"
+      instructions-6: "Esto se puede hacer a través del editor de Bl.ockBuilder o Github."
+      instructions-7: "Pegue el vínculo Gist a continuación."
+      insert: "Insertar Bloque"

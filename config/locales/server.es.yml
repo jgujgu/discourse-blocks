@@ -1,0 +1,3 @@
+es:
+  site_settings:
+    discourse_blocks_enabled: 'Mostrar el botón discourse-blocks en la ventana del compositor?'

@@ -1,0 +1,4 @@
+plugins:
+  discourse_blocks_enabled:
+    default: true
+    client: true

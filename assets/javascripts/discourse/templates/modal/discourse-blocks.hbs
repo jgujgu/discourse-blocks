@@ -1,0 +1,44 @@
+{{#d-modal-body id="blocks-modal"}}
+<div>
+  <div class="instructions">
+    <ol>
+      <li>
+        {{i18n "blocks.instructions-1"}}
+        <a href="http://blockbuilder.org/" target="_blank">
+          Bl.ock Builder.
+        </a>
+        {{i18n "blocks.instructions-2"}}
+        <a href="http://blockbuilder.org/mbostock/3885304" target="_blank">
+          {{i18n "blocks.this-one"}}
+        </a>
+      </li>
+      <li>
+        {{i18n "blocks.instructions-3"}}
+        <a href="https://help.github.com/articles/about-gists/" target="_blank">
+          Gist
+        </a>
+        {{i18n "blocks.instructions-4"}}
+      </li>
+      <li>
+        {{i18n "blocks.instructions-5"}}
+        <a href="https://github.com/enjalot/blockbuilder/wiki/How-it-works#files" target="_blank">
+          thumbnail.png
+          {{i18n "blocks.and"}}
+          README.md.
+        </a>
+        {{i18n "blocks.instructions-6"}}
+      </li>
+      <li>
+        {{i18n "blocks.instructions-7"}}
+      </li>
+    </ol>
+  </div>
+  <div class="gist-url">
+    <label for="blocks-gist-url">{{i18n "blocks.gist-url"}}</label>
+    {{gist-field id="blocks-gist-url" name="blocks-gist-url" url=gistUrl }}
+  </div>
+</div>
+{{/d-modal-body}}
+<div class="modal-footer">
+  <button id="blocks-submit" class="btn btn-primary pull-right" {{action "apply"}}>{{i18n "blocks.insert"}}</button>
+</div>

@@ -1,0 +1,3 @@
+fr:
+  site_settings:
+    discourse_blocks_enabled: 'Afficher le bouton discourse-blocks sur la fenêtre du compositeur?'

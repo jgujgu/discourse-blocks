@@ -1,0 +1,15 @@
+ru:
+  js:
+    blocks:
+      modal_title: "Добавить график"
+      gist-url: "Gist URL"
+      instructions-1: "Сохранить d3 граф с"
+      instructions-2: "Может быть, даже раскошелиться"
+      this-one: "этот."
+      instructions-3: "Сохранение создаст"
+      instructions-4: "на свой счет GitHub."
+      instructions-5: "Обязательно для заполнения Ваше GIST с"
+      and: "а также"
+      instructions-6: "Это может быть сделано с помощью редактора Bl.ockBuilder или Github."
+      instructions-7: "Вставить сутью ссылку ниже."
+      insert: "Вставка блока"

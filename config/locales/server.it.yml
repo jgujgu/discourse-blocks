@@ -1,0 +1,3 @@
+it:
+  site_settings:
+    discourse_blocks_enabled: 'Mostra pulsante discourse-blocks sulla finestra di composizione?'

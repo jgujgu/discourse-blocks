@@ -1,0 +1,80 @@
+.wmd-replygif-button:before {
+  content: "\f01d"
+}
+
+.gist > iframe {
+  border-width: 0px;
+  width: 100%;
+  height: 550px;
+}
+
+.block-url {
+  color: #0088cc;
+  cursor: pointer;
+}
+
+#blocks-modal {
+  overflow: visible;
+
+  .replygif-content {
+    max-height: 335px;
+    min-height: 200px;
+    overflow-y: scroll;
+    clear: both;
+  }
+
+  .ac-wrap {
+    display: inline-block;
+    width: 100%;
+  }
+
+  input.autocomplete {
+    width: 40%;
+  }
+
+  div.categories {
+    float: left;
+    width: 50%;
+
+    .combobox {
+      width: 95%;
+    }
+  }
+
+  div.tags {
+    float: left;
+    width: 50%;
+
+    .ac-wrap {
+      width: 95% !important;
+    }
+  }
+}
+
+
+@keyframes flickerAnimation {
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-o-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+.animate-flicker {
+  -webkit-animation: flickerAnimation 2s infinite;
+  -moz-animation: flickerAnimation 2s infinite;
+  -o-animation: flickerAnimation 2s infinite;
+  animation: flickerAnimation 2s infinite;
+}

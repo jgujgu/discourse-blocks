@@ -1,0 +1,15 @@
+zh:
+  js:
+    blocks:
+      modal_title: "添加图表"
+      gist-url: "Gist URL"
+      instructions-1: "保存d3图形"
+      instructions-2: "也许甚至叉"
+      this-one: "这个。"
+      instructions-3: "保存将创建一个"
+      instructions-4: "在你的Github帐户。"
+      instructions-5: "一定要填充你的Gist"
+      and: "和"
+      instructions-6: "这可以通过Bl.ockBuilder的编辑器或Github来完成。"
+      instructions-7: "粘贴下面的Gist链接。"
+      insert: "插入块"
