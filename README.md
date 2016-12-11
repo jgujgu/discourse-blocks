@@ -1,2 +1,2 @@
 # discourse-blocks Plugin
-This plugin adds support for displaying blocks to posts.
+A plugin that adds support for displaying d3 blocks in posts.
