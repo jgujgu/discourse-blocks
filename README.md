@@ -5,10 +5,10 @@ In Action
 ![](https://raw.githubusercontent.com/jgujgu/discourse-blocks/master/graphme.gif)
 
 Composer Button
-![](https://raw.githubusercontent.com/jgujgu/discourse-blocks/master/screenshot-composer.gif)
+![](https://raw.githubusercontent.com/jgujgu/discourse-blocks/master/screenshot-composer.png)
 
 Modal
-![](https://raw.githubusercontent.com/jgujgu/discourse-blocks/master/screenshot-modal.gif)
+![](https://raw.githubusercontent.com/jgujgu/discourse-blocks/master/screenshot-modal.png)
 
 Admin
-![](https://raw.githubusercontent.com/jgujgu/discourse-blocks/master/screenshot-admin.gif)
+![](https://raw.githubusercontent.com/jgujgu/discourse-blocks/master/screenshot-admin.png)
