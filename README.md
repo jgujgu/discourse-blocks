@@ -8,7 +8,7 @@ Composer Button
 ![](https://raw.githubusercontent.com/jgujgu/discourse-blocks/master/screenshot-composer.png)
 
 Modal
-![](https://raw.githubusercontent.com/jgujgu/discourse-blocks/master/screenshot-modal.png)
+![](https://raw.githubusercontent.com/jgujgu/discourse-blocks/master/screenshot-modal-1.png)
 
 Admin
 ![](https://raw.githubusercontent.com/jgujgu/discourse-blocks/master/screenshot-admin.png)
