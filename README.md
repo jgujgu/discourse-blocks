@@ -1,14 +1,14 @@
 # discourse-blocks Plugin
 A plugin that adds support for displaying d3 blocks in posts.
 
-In Action
+###In Action
 ![](https://raw.githubusercontent.com/jgujgu/discourse-blocks/master/graphme.gif)
 
-Composer Button
+###Composer Button
 ![](https://raw.githubusercontent.com/jgujgu/discourse-blocks/master/screenshot-composer.png)
 
-Modal
+###Modal
 ![](https://raw.githubusercontent.com/jgujgu/discourse-blocks/master/screenshot-modal-1.png)
 
-Admin
+###Admin
 ![](https://raw.githubusercontent.com/jgujgu/discourse-blocks/master/screenshot-admin.png)
