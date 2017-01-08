@@ -18,7 +18,15 @@ function createBlock(gistId, uniqueGist) {
 
 function updateGistDomObjects(gist, uniqueGist) {
   var $pGist = $("#p-gist-" + uniqueGist);
+  var $aGist = $("#p-gist-author-" + uniqueGist);
   var externalLink = '<i class="fa fa-external-link" aria-hidden="true"></i>';
+  $aGist.html("by " + "<span style='color:#0088cc;cursor:pointer'>" + gist.owner.login + "</span>");
+  $aGist.attr("data-url", gist.owner.html_url);
+  $aGist.click(function(e) {
+    e.stopPropagation();
+    var $this = $(this);
+    open($this.data('url'));
+  });
   $pGist.html(externalLink + " view on bl.ocks");
   $pGist.attr("data-url", "http://bl.ocks.org/" + gist.id);
   $pGist.click(function(e) {

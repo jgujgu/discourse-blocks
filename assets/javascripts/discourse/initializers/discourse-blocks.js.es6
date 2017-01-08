@@ -34,6 +34,10 @@ function createGistDomObjects(uniqueGist) {
     class: "gist-title"
   }).appendTo("#gist-" + uniqueGist);
   $('<p>', {
+    id: "p-gist-author-" + uniqueGist,
+    class: "block-author-url"
+  }).appendTo("#gist-" + uniqueGist);
+  $('<p>', {
     id: "p-gist-" + uniqueGist,
     class: "block-url"
   }).appendTo("#gist-" + uniqueGist);
