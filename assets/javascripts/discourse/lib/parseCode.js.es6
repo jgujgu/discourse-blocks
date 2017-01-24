@@ -28,6 +28,15 @@ function parseCode(template, files) {
       template = template.replace(match, proto);
     });
   }
+  var find = "<script.*?src=[\"\']http:.*?[\"\'].*?>";
+  var re = new RegExp(find, 'g');
+  var matches = template.match(re);
+  if (matches) {
+    matches.forEach(function(match, i) {
+      var proto = match.replace("http", "https");
+      template = template.replace(match, proto);
+    });
+  }
 
   var referencedFiles = {};
   // we need to keep track of injected lines for error line number offset
