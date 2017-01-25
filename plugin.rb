@@ -47,11 +47,15 @@ after_initialize do
   end
 
   DiscourseEvent.on(:post_created) do |post, opts, user|
-    save_thumbnail(post)
+    if post.post_type == 1
+      save_thumbnail(post)
+    end
   end
 
   DiscourseEvent.on(:post_edited) do |post, opts, user|
-    save_thumbnail(post)
+    if post.post_type == 1
+      save_thumbnail(post)
+    end
   end
 
   def save_thumbnail(post)
