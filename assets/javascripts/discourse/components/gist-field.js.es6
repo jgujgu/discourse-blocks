@@ -1,11 +1,10 @@
-import computed from 'ember-addons/ember-computed-decorators';
+import discourseComputed from "discourse-common/utils/decorators";
 import InputValidation from 'discourse/models/input-validation';
 
 export default Ember.Component.extend({
   classNames: ['gist-field'],
 
-  @computed('gist-field.url')
-
+  @discourseComputed('gist-field.url')
   gistValidation(url) {
     let reason;
     //if (url < 1) {
